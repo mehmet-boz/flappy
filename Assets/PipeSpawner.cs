@@ -7,6 +7,7 @@ public class PipeSpawner : MonoBehaviour
     public GameObject pipe;
     public float spawnRate = 2;
     private float timer = 0;
+    public float heightOffset = 5;
 
     void Start()
     {
@@ -29,6 +30,10 @@ public class PipeSpawner : MonoBehaviour
 
     void spawnPipe()
     {
-        Instantiate(pipe, transform.position, transform.rotation);
+        float lowestPoint = transform.position.y - heightOffset;
+        float hightestPoint = transform.position.y + heightOffset;
+
+        Instantiate(pipe, new Vector3(transform.position.x, 
+        Random.Range(lowestPoint, hightestPoint), 0), transform.rotation);
     }
 }

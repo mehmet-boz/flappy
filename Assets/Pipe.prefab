@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  deadZone: -12
 --- !u!1 &5348366595085238117
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +75,7 @@ Transform:
   m_GameObject: {fileID: 5348366595085238117}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.7703023, y: 10.467651, z: 0.004504999}
-  m_LocalScale: {x: 0.40485036, y: 0.40485036, z: 0.40485036}
+  m_LocalScale: {x: 0.3, y: 0.40485036, z: 0.40485036}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5348366594258207983}
@@ -185,7 +186,7 @@ Transform:
   m_GameObject: {fileID: 5348366595373929519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.7703023, y: -1.632349, z: 0.004504999}
-  m_LocalScale: {x: 0.40485036, y: -0.4048504, z: 0.40485036}
+  m_LocalScale: {x: 0.3, y: -0.4048504, z: 0.40485036}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5348366594258207983}
