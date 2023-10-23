@@ -5,8 +5,7 @@ using UnityEngine;
 public class BirdScript : MonoBehaviour
 {
     public Rigidbody2D myRigidBody;
-    public float upAmount = 0;
-    public bool direction = true;
+    public float upAmount = 8;
 
     // Start is called before the first frame update
     void Start()
